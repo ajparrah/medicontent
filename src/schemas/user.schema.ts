@@ -20,16 +20,7 @@ export const UserSchema = new Schema({
       message: '{VALUE} no es un tipo de usuario valido',
     },
   },
-  password: {
-    type: String,
-    required: [true, 'El password es obligatorio'],
-  },
 });
-
-UserSchema.methods.toJSON = function () {
-  const { password, __v, ...userWithoutPassword } = this.toObject();
-  return userWithoutPassword;
-};
 
 UserSchema.plugin(uniqueValidator, {
   message: '{PATH} debe ser un valor unico',

@@ -34,7 +34,11 @@
       "@middlewares/*": ["src/middlewares/*"],
       "@utils": ["src/utils"],
       "@utils/*": ["src/utils/*"],
-      "@schemas": ["src/schemas"]
+      "@schemas": ["src/schemas"],
+      "@dtos": ["src/dtos"],
+      "@dtos/*": ["src/dtos/*"],
+      "@mappers": ["src/mappers"],
+      "@mappers/*": ["src/mappers/*"]
     }
   },
   "exclude": ["node_modules", ".build", "jest.config.js"]
