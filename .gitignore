@@ -1,0 +1,19 @@
+# package directories
+node_modules
+jspm_packages
+.env
+dist
+.DS_Store
+build
+coverage
+yarn.lock
+.vscode
+.locals
+./events/
+.aws-sam/
+typings/
+.npm
+.locals.json
+.eslintcache
+*.log
+.build

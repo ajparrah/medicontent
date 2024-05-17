@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "Node16",
+    "lib": ["ES2023"],
+    "module": "node16",
+    "target": "ES2022",
+
+    "preserveConstEnums": true,
+    "strictNullChecks": true,
+    "sourceMap": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "removeComments": true,
+    "skipLibCheck": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "outDir": "dist",
+    "rootDir": "./",
+    "baseUrl": "./",
+    "paths": {
+      "@enums": ["src/enums"],
+      "@enums/*": ["src/enums/*"],
+      "@errors": ["src/errors"],
+      "@errors/*": ["src/errors/*"],
+      "@utils": ["src/utils"],
+      "@utils/*": ["src/utils/*"],
+      "@services": ["src/services"],
+      "@services/*": ["src/services/*"]
+    }
+  },
+  "exclude": ["node_modules", ".build", "jest.config.js"]
+}
