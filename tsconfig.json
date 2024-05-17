@@ -24,10 +24,16 @@
       "@enums/*": ["src/enums/*"],
       "@errors": ["src/errors"],
       "@errors/*": ["src/errors/*"],
-      "@utils": ["src/utils"],
-      "@utils/*": ["src/utils/*"],
       "@services": ["src/services"],
-      "@services/*": ["src/services/*"]
+      "@services/*": ["src/services/*"],
+      "@controllers": ["src/controllers"],
+      "@controllers/*": ["src/controllers/*"],
+      "@routers": ["src/routers"],
+      "@routers/*": ["src/routers/*"],
+      "@middlewares": ["src/middlewares"],
+      "@middlewares/*": ["src/middlewares/*"],
+      "@utils": ["src/utils"],
+      "@utils/*": ["src/utils/*"]
     }
   },
   "exclude": ["node_modules", ".build", "jest.config.js"]
