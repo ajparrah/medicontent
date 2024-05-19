@@ -38,7 +38,9 @@
       "@dtos": ["src/dtos"],
       "@dtos/*": ["src/dtos/*"],
       "@mappers": ["src/mappers"],
-      "@mappers/*": ["src/mappers/*"]
+      "@mappers/*": ["src/mappers/*"],
+      "@abstracts": ["src/abstracts"],
+      "@abstracts/*": ["src/abstracts/*"]
     }
   },
   "exclude": ["node_modules", ".build", "jest.config.js"]
